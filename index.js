@@ -5,7 +5,7 @@ const socket = require('socket.io');
 
 const app = express();
 const server = app.listen(5000, function(){
-	console.log('listing to request on port 5000');
+	console.log('listening to request on port 5000');
 });
 
 //Static files
